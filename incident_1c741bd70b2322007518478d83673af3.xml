@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<unload unload_date="2019-04-16 11:23:14">
+<incident action="INSERT_OR_UPDATE">
+<active>false</active>
+<activity_due>2016-12-13 01:26:36</activity_due>
+<additional_assignee_list/>
+<approval>not requested</approval>
+<approval_history/>
+<approval_set/>
+<assigned_to display_value="David Loo">5137153cc611227c000bbd1bd8cd2007</assigned_to>
+<assignment_group display_value="Network" name="Network">287ebd7da9fe198100f92cc8d1d2154e</assignment_group>
+<business_duration>1970-01-01 08:00:00</business_duration>
+<business_service display_value="Email">27d32778c0a8000b00db970eeaa60f16</business_service>
+<business_stc>28800</business_stc>
+<calendar_duration>1970-01-02 04:23:17</calendar_duration>
+<calendar_stc>102197</calendar_stc>
+<caller_id display_value="Joe Employee">681ccaf9c0a8016400b98a06818d57c7</caller_id>
+<category>inquiry</category>
+<caused_by display_value=""/>
+<child_incidents>0</child_incidents>
+<close_code>Solved (Permanently)</close_code>
+<close_notes>This incident is resolved.</close_notes>
+<closed_at>2016-12-14 02:46:44</closed_at>
+<closed_by display_value="Joe Employee">681ccaf9c0a8016400b98a06818d57c7</closed_by>
+<cmdb_ci display_value="Storage Area Network 001">109562a3c611227500a7b7ff98cc0dc7</cmdb_ci>
+<comments/>
+<comments_and_work_notes/>
+<company display_value="ACME North America">31bea3d53790200044e0bfc8bcbe5dec</company>
+<contact_type>self-service</contact_type>
+<correlation_display/>
+<correlation_id/>
+<delivery_plan display_value=""/>
+<delivery_task display_value=""/>
+<description>I am unable to connect to the email server. It appears to be down.</description>
+<due_date/>
+<escalation>0</escalation>
+<expected_start/>
+<follow_up/>
+<group_list/>
+<hold_reason/>
+<impact>2</impact>
+<incident_state>7</incident_state>
+<knowledge>false</knowledge>
+<location display_value=""/>
+<made_sla>true</made_sla>
+<notify>1</notify>
+<number>INC0000060</number>
+<opened_at>2016-12-12 15:19:57</opened_at>
+<opened_by display_value="Joe Employee">681ccaf9c0a8016400b98a06818d57c7</opened_by>
+<order/>
+<parent display_value=""/>
+<parent_incident display_value=""/>
+<priority>3</priority>
+<problem_id display_value=""/>
+<reassignment_count>2</reassignment_count>
+<rejection_goto display_value=""/>
+<reopen_count>0</reopen_count>
+<reopened_by display_value=""/>
+<reopened_time/>
+<resolved_at>2016-12-13 21:43:14</resolved_at>
+<resolved_by display_value="David Loo">5137153cc611227c000bbd1bd8cd2007</resolved_by>
+<rfc display_value=""/>
+<severity>3</severity>
+<short_description>Unable to connect to email</short_description>
+<sla_due/>
+<state>7</state>
+<subcategory>email</subcategory>
+<sys_class_name>incident</sys_class_name>
+<sys_created_by>employee</sys_created_by>
+<sys_created_on>2016-12-12 15:19:57</sys_created_on>
+<sys_domain>global</sys_domain>
+<sys_domain_path>/</sys_domain_path>
+<sys_id>1c741bd70b2322007518478d83673af3</sys_id>
+<sys_mod_count>15</sys_mod_count>
+<sys_updated_by>employee</sys_updated_by>
+<sys_updated_on>2016-12-14 02:46:44</sys_updated_on>
+<time_worked/>
+<upon_approval>proceed</upon_approval>
+<upon_reject>cancel</upon_reject>
+<urgency>2</urgency>
+<user_input/>
+<variables/>
+<watch_list/>
+<wf_activity display_value=""/>
+<work_end/>
+<work_notes/>
+<work_notes_list/>
+<work_start/>
+</incident>
+<sys_journal_field action="INSERT_OR_UPDATE">
+<element>comments</element>
+<element_id>1c741bd70b2322007518478d83673af3</element_id>
+<name>incident</name>
+<sys_created_by>david.loo</sys_created_by>
+<sys_created_on>2016-12-13 14:43:17</sys_created_on>
+<sys_id>263ab36b0b2322007518478d83673afd</sys_id>
+<value>Hi Joe,
+My name is David. I'll be assisting you with this incident. Can you confirm which VPN you have been using today? I also see you were having this issue at 2:30PM. Were there any other times you can recall you had issues connecting to the email?</value>
+</sys_journal_field>
+<sys_journal_field action="INSERT_OR_UPDATE">
+<element>work_notes</element>
+<element_id>1c741bd70b2322007518478d83673af3</element_id>
+<name>incident</name>
+<sys_created_by>beth.anglin</sys_created_by>
+<sys_created_on>2016-12-13 00:56:57</sys_created_on>
+<sys_id>3388d92b0b2322007518478d83673af1</sys_id>
+<value>Updating priority as workaround for incident has been provided.</value>
+</sys_journal_field>
+<sys_journal_field action="INSERT_OR_UPDATE">
+<element>comments</element>
+<element_id>1c741bd70b2322007518478d83673af3</element_id>
+<name>incident</name>
+<sys_created_by>employee</sys_created_by>
+<sys_created_on>2016-12-12 20:43:50</sys_created_on>
+<sys_id>44aed02b0b2322007518478d83673aef</sys_id>
+<value>Hi Beth,
+Yes, I'm connected to the VPN, although I've had to reconnect to it a couple of times. The last time I was unable to connect was 2:30PM.</value>
+</sys_journal_field>
+<sys_journal_field action="INSERT_OR_UPDATE">
+<element>work_notes</element>
+<element_id>1c741bd70b2322007518478d83673af3</element_id>
+<name>incident</name>
+<sys_created_by>beth.anglin</sys_created_by>
+<sys_created_on>2016-12-12 17:57:00</sys_created_on>
+<sys_id>8078ffd70b2322007518478d83673a63</sys_id>
+<value>Increasing priority as this incident is affecting more number of users</value>
+</sys_journal_field>
+<sys_journal_field action="INSERT_OR_UPDATE">
+<element>comments</element>
+<element_id>1c741bd70b2322007518478d83673af3</element_id>
+<name>incident</name>
+<sys_created_by>david.loo</sys_created_by>
+<sys_created_on>2016-12-13 18:42:25</sys_created_on>
+<sys_id>9df0787b0b2322007518478d83673abd</sys_id>
+<value>Hi Joe,
+I've checked in network logs and you were timed out from the VPN at 9:25AM, 10:42AM and 2:28PM. These three times coincide with entries in the exchange server logs showing you lost connection at those same times. The VPN policy is to time out a connection if it hasn't been active in 30 minutes. Please ensure the next time you lose connectivity you are still connected to the VPN.
+
+I'm going to update this incident to resolved. Please let me know if you need any more assistance.</value>
+</sys_journal_field>
+<sys_journal_field action="INSERT_OR_UPDATE">
+<element>work_notes</element>
+<element_id>1c741bd70b2322007518478d83673af3</element_id>
+<name>incident</name>
+<sys_created_by>beth.anglin</sys_created_by>
+<sys_created_on>2016-12-12 17:01:24</sys_created_on>
+<sys_id>a1bb2fd70b2322007518478d83673aa7</sys_id>
+<value>Updating incident with correct Configuration item</value>
+</sys_journal_field>
+<sys_journal_field action="INSERT_OR_UPDATE">
+<element>comments</element>
+<element_id>1c741bd70b2322007518478d83673af3</element_id>
+<name>incident</name>
+<sys_created_by>employee</sys_created_by>
+<sys_created_on>2016-12-13 15:53:01</sys_created_on>
+<sys_id>bf2a447b0b2322007518478d83673aa3</sys_id>
+<value>Hi David,
+Thank you! I use the corporate VPN and was also unable to connect to the email server at 9:30AM and 10:45AM.</value>
+</sys_journal_field>
+<sys_journal_field action="INSERT_OR_UPDATE">
+<element>comments</element>
+<element_id>1c741bd70b2322007518478d83673af3</element_id>
+<name>incident</name>
+<sys_created_by>beth.anglin</sys_created_by>
+<sys_created_on>2016-12-12 18:52:42</sys_created_on>
+<sys_id>c435402b0b2322007518478d83673a6b</sys_id>
+<value>Hi Joe, 
+Are you connected to the VPN when you're having this issue? Can you identify a specific time you were unable to connect to email?</value>
+</sys_journal_field>
+<sys_journal_field action="INSERT_OR_UPDATE">
+<element>comments</element>
+<element_id>1c741bd70b2322007518478d83673af3</element_id>
+<name>incident</name>
+<sys_created_by>beth.anglin</sys_created_by>
+<sys_created_on>2016-12-12 16:30:49</sys_created_on>
+<sys_id>e1b4abd70b2322007518478d83673a22</sys_id>
+<value>Hi Joe, 
+My name is Beth and I'll be assisting you with your issue.</value>
+</sys_journal_field>
+<sys_journal_field action="INSERT_OR_UPDATE">
+<element>comments</element>
+<element_id>1c741bd70b2322007518478d83673af3</element_id>
+<name>incident</name>
+<sys_created_by>employee</sys_created_by>
+<sys_created_on>2016-12-12 15:19:57</sys_created_on>
+<sys_id>eb741bd70b2322007518478d83673a5e</sys_id>
+<value>I am unable to connect to the email server. It appears to be down.</value>
+</sys_journal_field>
+<sys_journal_field action="INSERT_OR_UPDATE">
+<element>comments</element>
+<element_id>1c741bd70b2322007518478d83673af3</element_id>
+<name>incident</name>
+<sys_created_by>employee</sys_created_by>
+<sys_created_on>2016-12-13 20:30:14</sys_created_on>
+<sys_id>f0a94d7b0b2322007518478d83673aa9</sys_id>
+<value>Hi David, 
+That must be it. I was on phone calls at all three of those times and must not have had any activity on my computer. Please close this incident.</value>
+</sys_journal_field>
+<sys_journal_field action="INSERT_OR_UPDATE">
+<element>comments</element>
+<element_id>1c741bd70b2322007518478d83673af3</element_id>
+<name>incident</name>
+<sys_created_by>beth.anglin</sys_created_by>
+<sys_created_on>2016-12-13 00:56:57</sys_created_on>
+<sys_id>f388d92b0b2322007518478d83673af1</sys_id>
+<value>Hi Joe, 
+As per discussion on call, Workaround has been provided and it has worked for you. I have verified with the Exchange team we haven't had an issue with the email server today. I'm going to assign this issue to the network team for further investigation.</value>
+</sys_journal_field>
+</unload>
